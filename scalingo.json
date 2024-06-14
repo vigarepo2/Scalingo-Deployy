@@ -3,7 +3,7 @@
     "description": "لـ تنصيـب سورس تيبثـون العربي على سكالينجـو",
     "addons": ["scalingo-postgresql"],
     "keywords": ["tepthon", "userbot","scalingo"],
-    "repository": "https://github.com/RRYR7/thesource",
+    "repository": "https://github.com/RRYR7/scalingo-deploy",
     "stack": "container",
     "buildpacks": [
       {
