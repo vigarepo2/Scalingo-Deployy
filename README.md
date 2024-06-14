@@ -1,3 +1,2 @@
-##  🔗 Deploy Tepthon Source On Scalingo :
-This Code Based By [Tepthon](t.me/Tepthon)
-#حقوق_زلزال
+##  🔗 Deploy ZThon Source On Scalingo :
+This Code Based By [ZThon](https://t.me/ZThon)
