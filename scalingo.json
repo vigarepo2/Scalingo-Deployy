@@ -1,9 +1,9 @@
 {
-    "name": "Source ZThon",
-    "description": "افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون",
+    "name": "سورس تيبثون",
+    "description": "تنصيب سورس تيبثون مجانًـا على سكالينج",
     "addons": ["scalingo-postgresql"],
     "keywords": ["zthon", "userbot","scalingo"],
-    "repository": "https://github.com/ZThon-Ar/ZTZ",
+    "repository": "https://github.com/RRYR7/thesource",
     "stack": "container",
     "buildpacks": [
       {
