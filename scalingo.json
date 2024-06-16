@@ -1,42 +1,30 @@
 {
-    "name": "سورس تيبثون",
-    "description": "تنصيب سورس تيبثون مجانًـا على سكالينج",
+    "name": "سـورس تيبثـون العربي - 𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 𝗔𝗿𝗮𝗯𝗶𝗰",
+    "description": "لـ تنصـيـب سـورس تيبثـون العربـي على سكالينجو مجانًا",
     "addons": ["scalingo-postgresql"],
-    "keywords": ["zthon", "userbot","scalingo"],
-    "repository": "https://github.com/RRYR7/thesource",
+    "keywords": ["tepthon", "userbot","scalingo"],
+    "repository": "https://github.com/RRYR7/scalingo-deploy",
+    "logo": "https://graph.org/file/9a2e99d95903e6b8f9fb9.jpg",
     "stack": "container",
-    "buildpacks": [
-      {
-        "url": "https://github.com/Scalingo/python-buildpack.git"
-      },
-      {
-        "url": "https://github.com/Zilzalll/heroku-buildpack-ffmpeg-latest.git"
-      }
-    ],
     "env": {
-        "ALIVE_NAME": {
-            "description": "اســم حســـابك التلـي",
+        "STRING_SESSION": {
+            "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 FJDbot@ 〕..",
+            "required": true
+        },
+        "TG_BOT_TOKEN": {
+            "description": "تـــوكـــن البـــوت المســاعـد الخــاص بـك - مـن بـوت فـاذر〔 Botfather@ 〕..",
             "required": true,
             "value":""
         },
         "APP_ID": {
-            "description": "كـود ايبي ايـدي〔 App id 〕لا تغيرهـا",
+            "description": "كـود ايبي ايـدي〔 App id 〕اتركـه كمـا هــو",
             "required": true,
             "value":"27455984"
         },
         "API_HASH": {
-            "description": "كـود ايبي هـاش〔 Api hash 〕..لا تغيرهـا",
+            "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
             "required": true,
             "value":"62d5f68ce2e9189636967120220f5755"
-        },
-        "STRING_SESSION": {
-            "description": "كـــود سيشــن تيـــليثـــون - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت الإستخــراج",
-            "required": true
-        },
-        "TG_BOT_TOKEN": {
-            "description": "تـــوكـــن البـــوت المســاعـد الخــاص بـك - من بـوت فـاذر〔 @Botfather 〕..",
-            "required": true,
-            "value":""
         },
         "TZ": {
             "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
