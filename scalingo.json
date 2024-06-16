@@ -8,7 +8,7 @@
     "stack": "container",
     "env": {
         "STRING_SESSION": {
-            "description": "كـود السيشــن - استخـرج جلسـة بايروجـرام من هـذا البوت 《 @FJDBot》,"
+            "description": "كـود السيشــن - استخـرج جلسـة بايروجـرام من هـذا البوت 《 @FJDBot",
             "required": true
         },
         "TG_BOT_TOKEN": {
