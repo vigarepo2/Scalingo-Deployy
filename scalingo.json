@@ -8,26 +8,26 @@
     "stack": "container",
     "env": {
         "STRING_SESSION": {
-            "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 FJDbot@ 〕..",
+            "description": "كـود السيشــن - استخـرج جلسـة بايروجـرام من هـذا البوت 《 @FJDBot》,"
             "required": true
         },
         "TG_BOT_TOKEN": {
-            "description": "تـــوكـــن البـــوت المســاعـد الخــاص بـك - مـن بـوت فـاذر〔 Botfather@ 〕..",
+            "description": "توكـن البوت المساعــد - احصـل عليـه من بوت فـاذر @BotFather",
             "required": true,
             "value":""
         },
         "APP_ID": {
-            "description": "كـود ايبي ايـدي〔 App id 〕اتركـه كمـا هــو",
+            "description": "كـود أيبي أيدي〔 App id 〕",
             "required": true,
-            "value":"27455984"
+            "value":""
         },
         "API_HASH": {
             "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
             "required": true,
-            "value":"62d5f68ce2e9189636967120220f5755"
+            "value":""
         },
         "TZ": {
-            "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
+            "description": "المنطقـة الزمنيــة لا تغيرهـا",
             "required": true,
             "value": "Asia/Baghdad"
         },
